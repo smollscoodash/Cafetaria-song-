@@ -1,1 +1,11 @@
 # Cafetaria-song-
+<body style="background:#111;color:#fff;text-align:center;padding-top:25vh;font:22px sans-serif">
+<b style="color:#ffd700">🎶 vzstromz 🎶</b>
+<div id="l"></div>
+<button onclick="m()">Mulai</button>
+<script>
+d=[["So get up, get down",2000],["If you're gonna come around",2200],["We can work together",2100],["Helping Twilight win the crown",2500],["",300],["So get up, get down",2000],["'Cause it's gonna make a sound",2200],["If we work together",2100],["Helping Twilight Sparkle win the crown",3500]]
+i=0
+function m(){i=0;t()}
+function t(){if(i>=d.length)return;l.innerHTML='<b style="color:#ffd700">'+d[i][0]+'</b>';i++;setTimeout(t,d[i-1][1])}
+</script>
